@@ -1,0 +1,31 @@
+{
+  "name": "dev.zoebuffer.udsa",
+  "version": "0.0.1",
+  "displayName": "Udon Data Structures and Algorithms",
+  "description": "A collection of extension methods and utilities for implementing common data structures and algorithms in Udon.",
+  "unity": "2019.4",
+  "unityRelease": "0b4",
+  "documentationUrl": "See DOCUMENTATION.md",
+  "changelogUrl": "See CHANGELOG.md",
+  "licensesUrl": "See LICENSE.md",
+  "dependencies": {
+    "com.varneon.vudon.array-extensions": "0.3.0"
+  },
+  "samples": [
+    {
+      "displayName": "Sortable Object Example",
+      "description": "Example script for making use of IUdonComparer type for sorting UdonSharpBehaviour objects.",
+      "path": "Samples~/SortableObjectExample"
+    }
+  ],
+  "keywords": [
+    "Utility",
+    "Tool"
+  ],
+  "author": {
+    "name": "zoebuffer",
+    "email": "",
+    "url": "https://github.com/zoebuffer"
+  },
+  "type": "library"
+}
